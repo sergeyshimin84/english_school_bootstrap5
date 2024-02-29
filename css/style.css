@@ -1,0 +1,33 @@
+@import url(bootstrap.min.css);
+
+/*header*/
+.navbar {
+  border: 1px solid gray;
+  border-radius: 24px;
+  background-color: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+}
+
+.nav-link:hover {
+  color: #7bb745;
+}
+
+._btn-header-phone,
+._btn-header-telegram {
+  height: 48px;
+  border-radius: 16px;
+  padding: 12px, 16px, 12px, 16px;
+  gap: 5px;
+}
+
+._btn-header-phone {
+  min-width: 215px;
+}
+
+._btn-header-phone > a {
+  text-decoration: none;
+  color: #05203e;
+}
