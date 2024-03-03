@@ -1,0 +1,48 @@
+// Custom.scss
+// Вариант А: Включите весь Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+$theme-colors: (
+  "success": $success,
+  "dark": $dark,
+);
+
+body {
+  color: $success;
+}
+
+._box-main {
+  min-height: 680px;
+  background-color: $yellow-300;
+  border-radius: 0px 0px 24px 24px;
+  main h1 {
+    color: $white;
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  main h3 {
+    color: $white;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+
+.navbar {
+  border-radius: 24px;
+  background: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+}
