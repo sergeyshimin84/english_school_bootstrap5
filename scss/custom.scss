@@ -46,3 +46,15 @@ body {
     rgba(255, 255, 255, 0.2) 100%
   );
 }
+
+._btn-phone,
+._btn-messenger {
+  border-radius: 16px;
+}
+
+._btn-phone {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
