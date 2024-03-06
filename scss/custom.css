@@ -12015,4 +12015,19 @@ body {
 ._btn-phone a {
   text-decoration: none;
   color: black;
+}
+
+._box-section-one {
+  min-height: 992px;
+  color: #05203e;
+}
+
+._title-section-one span {
+  color: #7bb745;
+  text-decoration: underline;
+}
+
+._cards-section-one {
+  border: 1px solid #d6dade;
+  border-radius: 24px;
 }/*# sourceMappingURL=custom.css.map */
