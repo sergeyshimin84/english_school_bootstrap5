@@ -12018,7 +12018,7 @@ body {
 }
 
 ._box-section-one {
-  min-height: 992px;
+  max-height: 992px;
   color: #05203e;
 }
 
@@ -12030,4 +12030,14 @@ body {
 ._cards-section-one {
   border: 1px solid #d6dade;
   border-radius: 24px;
+  max-height: 420px;
+}
+._cards-section-one img {
+  transform: scale(0.85);
+  position: relative;
+  left: 80%;
+}
+
+._img-illustration {
+  margin-top: -40%;
 }/*# sourceMappingURL=custom.css.map */
