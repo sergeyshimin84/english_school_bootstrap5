@@ -11978,6 +11978,7 @@ textarea.form-control-lg {
 }
 body {
   color: #198754;
+  background-color: #f9f5e7;
 }
 
 ._box-main {
@@ -12020,6 +12021,8 @@ body {
 ._box-section-one {
   max-height: 992px;
   color: #05203e;
+  border-radius: 0px 0px 24px 24px;
+  background-color: #ffffff;
 }
 
 ._title-section-one span {
@@ -12034,10 +12037,71 @@ body {
 }
 ._cards-section-one img {
   transform: scale(0.85);
-  position: relative;
-  left: 80%;
 }
 
 ._img-illustration {
   margin-top: -40%;
+}
+
+._box-section-second {
+  min-height: 680px;
+  border-radius: 0px 0px 24px 24px;
+}
+
+._title-section-second {
+  color: #05203e;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+._card-section-second {
+  border-radius: 26px;
+  background-size: 100%;
+  width: 610px;
+  height: 380px;
+  color: #ffffff;
+}
+._card-section-second p {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+._card-first {
+  background-image: url(../img/card_1-1.jpg);
+}
+
+._card-second {
+  background-image: url(../img/card_2-2.jpg);
+}
+
+._card-third {
+  background-image: url(../img/card_3-3.jpg);
+}
+
+._card-fourth {
+  background-image: url(../img/card_4-4.jpg);
+}
+
+._btn-card {
+  width: 80px;
+  height: 80px;
+  top: 268px;
+  left: 498px;
+  padding: 28.33px;
+  border-radius: 166.67px;
+  gap: 13.33px;
+  background-color: #ffffff;
+}
+
+._card-attention {
+  border-radius: 26px;
+  background-size: 100%;
+  background-image: url(../img/attention-web.jpg);
+  min-height: 118px;
 }/*# sourceMappingURL=custom.css.map */
