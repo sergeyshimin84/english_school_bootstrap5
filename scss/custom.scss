@@ -12,9 +12,16 @@ $theme-colors: (
   "dark": $dark,
 );
 
+$white: #ffffff;
+$black: #000000;
+$basic-blue: #05203e;
+$basic-green: #7bb745;
+$basic-yellow: #fac017;
+$main-background: #f9f5e7;
+
 body {
   color: $success;
-  background-color: #f9f5e7;
+  background-color: $main-background;
 }
 
 ._box-main {
@@ -39,6 +46,10 @@ body {
   }
 }
 
+._picture-main {
+  margin-left: -6rem;
+}
+
 .navbar {
   border-radius: 24px;
   background: linear-gradient(
@@ -56,20 +67,20 @@ body {
 ._btn-phone {
   a {
     text-decoration: none;
-    color: black;
+    color: $black;
   }
 }
 
 ._box-section-one {
   max-height: 992px;
-  color: #05203e;
+  color: $basic-blue;
   border-radius: 0px 0px 24px 24px;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 ._title-section-one {
   span {
-    color: #7bb745;
+    color: $basic-green;
     text-decoration: underline;
   }
 }
@@ -89,12 +100,11 @@ body {
 
 ._box-section-second {
   min-height: 680px;
-  // background-color: #f9f5e7;
   border-radius: 0px 0px 24px 24px;
 }
 
 ._title-section-second {
-  color: #05203e;
+  color: $basic-blue;
   font-size: 70px;
   font-weight: 600;
   line-height: 76px;
@@ -107,7 +117,7 @@ body {
   background-size: 100%;
   width: 610px;
   height: 380px;
-  color: #ffffff;
+  color: $white;
   p {
     font-size: 21px;
     font-weight: 600;
@@ -141,7 +151,7 @@ body {
   padding: 28.33px;
   border-radius: 166.67px;
   gap: 13.33px;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 ._card-attention {
@@ -149,4 +159,17 @@ body {
   background-size: 100%;
   background-image: url(../img/attention-web.jpg);
   min-height: 118px;
+  color: $basic-blue;
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+  }
+  p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+  }
 }
