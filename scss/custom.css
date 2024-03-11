@@ -12022,24 +12022,24 @@ body {
   color: #000000;
 }
 
-._box-section-one {
+._box-advantages {
   max-height: 992px;
   color: #05203e;
   border-radius: 0px 0px 24px 24px;
   background-color: #ffffff;
 }
 
-._title-section-one span {
+._title-advantages span {
   color: #7bb745;
   text-decoration: underline;
 }
 
-._cards-section-one {
+._cards-advantages {
   border: 1px solid #d6dade;
   border-radius: 24px;
   max-height: 420px;
 }
-._cards-section-one img {
+._cards-advantages img {
   transform: scale(0.85);
 }
 
@@ -12047,12 +12047,12 @@ body {
   margin-top: -40%;
 }
 
-._box-section-second {
+._box-programs {
   min-height: 680px;
   border-radius: 0px 0px 24px 24px;
 }
 
-._title-section-second {
+._title-programs {
   color: #05203e;
   font-size: 70px;
   font-weight: 600;
@@ -12061,14 +12061,14 @@ body {
   text-align: left;
 }
 
-._card-section-second {
+._card-programs {
   border-radius: 26px;
   background-size: 100%;
   width: 610px;
   height: 380px;
   color: #ffffff;
 }
-._card-section-second p {
+._card-programs p {
   font-size: 21px;
   font-weight: 600;
   line-height: 28px;

@@ -71,21 +71,21 @@ body {
   }
 }
 
-._box-section-one {
+._box-advantages {
   max-height: 992px;
   color: $basic-blue;
   border-radius: 0px 0px 24px 24px;
   background-color: $white;
 }
 
-._title-section-one {
+._title-advantages {
   span {
     color: $basic-green;
     text-decoration: underline;
   }
 }
 
-._cards-section-one {
+._cards-advantages {
   border: 1px solid #d6dade;
   border-radius: 24px;
   max-height: 420px;
@@ -98,12 +98,12 @@ body {
   margin-top: -40%;
 }
 
-._box-section-second {
+._box-programs {
   min-height: 680px;
   border-radius: 0px 0px 24px 24px;
 }
 
-._title-section-second {
+._title-programs {
   color: $basic-blue;
   font-size: 70px;
   font-weight: 600;
@@ -112,7 +112,7 @@ body {
   text-align: left;
 }
 
-._card-section-second {
+._card-programs {
   border-radius: 26px;
   background-size: 100%;
   width: 610px;
