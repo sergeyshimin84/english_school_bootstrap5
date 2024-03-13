@@ -11983,10 +11983,12 @@ body {
 
 ._box-main {
   min-height: 680px;
-  background-color: #ffda6a;
+  background-image: url(../img/cover-web.jpg);
+  background-size: 100%;
   border-radius: 0px 0px 24px 24px;
 }
 ._box-main main h1, ._box-main main .h1 {
+  z-index: 1;
   color: #ffffff;
   font-size: 88px;
   font-weight: 600;
@@ -12003,8 +12005,20 @@ body {
   text-align: left;
 }
 
+._img-home-icon {
+  margin: 8% auto;
+}
+
+._title-main {
+  position: relative;
+  z-index: 1;
+}
+
 ._picture-main {
-  margin-left: -6rem;
+  margin-top: -4.9%;
+  margin-left: 47%;
+  position: absolute;
+  z-index: 0;
 }
 
 .navbar {

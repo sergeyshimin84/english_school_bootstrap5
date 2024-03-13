@@ -26,9 +26,11 @@ body {
 
 ._box-main {
   min-height: 680px;
-  background-color: $yellow-300;
+  background-image: url(../img/cover-web.jpg);
+  background-size: 100%;
   border-radius: 0px 0px 24px 24px;
   main h1 {
+    z-index: 1;
     color: $white;
     font-size: 88px;
     font-weight: 600;
@@ -46,8 +48,20 @@ body {
   }
 }
 
+._img-home-icon {
+  margin: 8% auto;
+}
+
+._title-main {
+  position: relative;
+  z-index: 1;
+}
+
 ._picture-main {
-  margin-left: -6rem;
+  margin-top: -4.9%;
+  margin-left: 47%;
+  position: absolute;
+  z-index: 0;
 }
 
 .navbar {
