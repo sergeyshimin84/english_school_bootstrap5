@@ -11982,7 +11982,7 @@ body {
 }
 
 ._box-main {
-  min-height: 680px;
+  max-height: 680px;
   background-image: url(../img/cover-web.jpg);
   background-size: 100%;
   border-radius: 0px 0px 24px 24px;
@@ -12009,15 +12009,20 @@ body {
   margin: 8% auto;
 }
 
+._title {
+  position: absolute;
+  z-index: 1;
+}
+
 ._title-main {
-  position: relative;
+  position: absolute;
+  top: 25%;
   z-index: 1;
 }
 
 ._picture-main {
-  margin-top: -4.9%;
-  margin-left: 47%;
-  position: absolute;
+  margin-left: 60%;
+  background-position: bottom 0;
   z-index: 0;
 }
 
